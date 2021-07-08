@@ -8,11 +8,11 @@ eureka:
     hostname: localhost
     
 micorservices:
-  order-service:
+  orderservice:
     endpoints:
       bookorder:
         url: http://ORDER-SERVICE/order/bookorder
-  payment-service:
+  paymentservice:
     endpoints:
       dopayment:
         url: http://PAYMENT-SERVICE/payment/dopayment
